@@ -4,7 +4,7 @@
 
     bundle install
 
-cp credentials.yml.example credentials.yml
+    cp credentials.yml.example credentials.yml
 
 Set your google username and spreadsheet keys in credentials.yml file
 
