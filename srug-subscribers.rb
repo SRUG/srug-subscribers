@@ -28,7 +28,7 @@ end
 
 unique_emails = subscriptions.values.flatten.uniq
 
-File.open("srug-subscribers.txt", "w") { |f| f.puts unique_emails.join(",") }
+File.open("srug-subscribers.txt", "w") { |f| f.puts unique_emails.join(", ") }
 
 pp "Emails count: #{unique_emails.size}"
 pp unique_emails
